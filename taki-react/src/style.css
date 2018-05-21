@@ -1,0 +1,214 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+.App {
+  text-align: center;
+    color: red;
+}
+
+#computerCards,#Cards{
+    margin: 40px auto;
+    display: inline-block;
+}
+
+
+#con{
+    position: relative;
+    margin: 40px auto;
+    text-align: center;
+    width: 60%;
+
+}
+#human{
+  position: relative;
+
+}
+.labelDeck{
+      display: inline-block;
+      margin: 2px  -64px auto;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    font-weight: bold;
+}
+label.headLine{
+    display: inline-block;
+
+}
+#lb,label.headLine,.deckLabel,.card,.midLabelLeft,.midLablRight,#left,.howsTurn{
+    font-size: 15px;
+    font-weight: bold;
+}
+.howsTurn{
+    color: red;
+    font-size: 25px;
+    display: inline-block;
+
+}
+.deckLabel{
+  position: absolute;
+  float:left;
+  top:50px;
+   left:5px;
+}
+.Turn{
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+
+
+}
+#middle{
+    display: flex;
+
+
+}
+
+#leftMain,#rightMain{
+   flex:1;
+
+}
+#rightMain{
+  position: relative;
+}
+#HeapAndMsgDiv{
+    display: flex;
+    float: right;
+
+}
+
+#msg{
+    display: inline-block;
+    flex:1;
+} 
+#msg.instarction{
+   width:125px;
+   height:185px;
+   color: red;
+   display: inline-block;
+   font-size: 25px;
+   padding: 30px;
+   vertical-align: text-top;
+   box-sizing: border-box;
+}
+
+#left1
+{
+    flex:1;
+}
+
+
+.card{
+    width:95px;
+    height:150px;
+    max-height: 185px;
+    margin: 3px auto;
+    margin-right: 1px;
+    margin-left: 1px;
+     display: inline-block;
+    border: 1px solid black;
+    text-align:center;
+
+    vertical-align: text-top;
+}
+
+
+#deck,.card,.half-containers{
+    border-radius: 15px;
+}
+
+
+.quit{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 50%;
+
+}
+
+.selector{
+  color: black;
+ width:100px;
+ height:90px;
+ padding: 0;
+ font-weight: bold;
+ margin: 0 auto; 
+border: 1px solid black;
+ border: none;
+ margin-bottom: 3px;
+ border-radius: 5px;
+ background: #0BDA51;
+  text-align: center;
+
+}
+
+.closetaki.halfContainers{
+    padding: 10%
+
+}
+.footer{
+    margin:20px auto;
+    width: 50%;
+    border: 1px solid black;
+}
+.stats{
+    margin: 10px;
+    border-bottom: 1px solid black;
+    text-align: left;
+   font-size: 15px;
+}
+.footer.stats:last-child { border-bottom: none; }
+
+#statsGameDurationValue,#statsAverageGamePlayValue,#statsTimesWithSingleValue,#statsTotalTurnsValue{
+    display: inline-block;
+
+    float: right;
+}
+.statsResult{
+  display: inline-block;
+  float: right;
+}
+
+.gameOver{
+   margin: 10px auto;
+   text-align: center;
+   font-size: 30px;
+   color: red;
+   padding: 2% 0;
+}
+.startAgain{
+     margin: 10px auto;
+     text-align: center;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    color: black;
+  width: 60%;
+    cursor: pointer;
+}
+#endGameMsg{
+  display: none;
+}
+.cardChoiseColor{
+     width:125px;
+    height:185px;
+    max-height: 185px;
+    margin: 3px auto;   
+    text-align:center;
+    vertical-align: text-top;
+  
+}
+.Colorflex{
+border-radius:15px;
+  width: 40%;
+   height: 40%;
+}
+
+
+
+
